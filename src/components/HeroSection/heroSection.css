@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dela+Gothic+One&family=Rubik+Doodle+Shadow&display=swap');
+
+#homemain {
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url('https://i.postimg.cc/d33s25SV/flowers.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    /* width: 100%; */
+    padding: 3vw 15vw;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headings{
+    display: flex;
+    padding: 0 30px;
+    width: 70vw;
+    gap: 40px;
+    background-color: rgba(110, 110, 110, 0.625);
+    border-radius: 15px;
+}
+#homemain .headings h1 {
+    font-size: 6vw;
+    font-weight: 900;
+    /* letter-spacing: -9px; */
+    font-family: 'Rubik Doodle Shadow';
+    background: rgb(0, 0, 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.overlay {
+    position: relative;
+    margin-top: 20px;
+    width: 800px;
+    height: 300px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+.overlay .text p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.home-btn{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: rgb(48, 48, 244);
+}
+
+.home-btn p{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    #homemain{
+        height: 500px;
+    }
+    .headings{
+        display: flex;
+        gap: 10px;
+    }
+    .home-btn{
+        width:90px;
+        height: 60px
+    }
+
+    .home-btn p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .overlay{
+        width: 200px;
+    }
+    .overlay .text p{
+        font-size: 17px;
+        text-align: center;
+    }
+  }

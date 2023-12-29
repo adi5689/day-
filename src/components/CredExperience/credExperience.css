@@ -1,0 +1,68 @@
+@import '../../common/styles/variables.css';
+@import '../../common/styles/commonClasses.css';
+
+.cred-experience{
+    background-color: black;
+    min-height:100vh;
+    /* width: 100vw; */
+}
+
+.home-btn2{
+    background-color: white;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.home-btn2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.playlist{
+    padding: 50px;
+}
+
+.coupons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr; /* One column for screens less than 768px wide */
+    }
+}
+
+
+@media all and (max-width: 1279px) {
+    .cred-experience{
+        background-position: center bottom;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .cred-experience{
+        background-position: right center;
+        min-height: 1150px;
+    }
+    .cred-exp-heading{
+        /* margin-top: 400px; */
+        font-size: 65px;
+    }
+
+    .cred-exp-child{
+        padding: 60px 20px 90px;
+    }
+
+    .cred-exp-desc{
+        margin-top: 0;
+    }
+
+}
+
+

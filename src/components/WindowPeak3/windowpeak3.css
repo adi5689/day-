@@ -1,0 +1,17 @@
+.window-peak3 {
+    min-height: 1400px;
+    /* width: fit-content; */
+    background-attachment: fixed;
+    position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("https://i.imgur.com/p9Uceky.jpg");
+}
+
+@media screen and (max-width: 400px) {
+    .window-peak3 {
+        min-height: 400px;
+        background-image: url("https://i.imgur.com/E6YHEG2.jpg");
+    }
+}

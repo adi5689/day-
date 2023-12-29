@@ -1,0 +1,7 @@
+.player{
+    padding: 3rem;
+    display: flex;
+}
+.player-heading{
+    text-align: center;
+}

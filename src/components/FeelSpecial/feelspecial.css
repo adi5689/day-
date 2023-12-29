@@ -1,0 +1,64 @@
+@import '../../common/styles/variables.css';
+@import '../../common/styles/commonClasses.css';
+
+.feel-special{
+    background-color: var(--bg-red);
+    min-height:70vh;
+    /* width: 100vw; */
+    /* display: flex; */
+}
+
+.feel-container{
+    /* width: 90vw; */
+    padding: 60px;
+}
+
+.max-width1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.som-embed-player{
+    width: 900px;
+    height: 500px;
+    /* padding-bottom: 56.25%;  */
+    position: relative;
+}
+
+.tex-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media all and (max-width: 1279px) {
+    .feel-special{
+        background-position: center bottom;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .feel-special{
+        background-position: right center;
+        /* background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg); */
+        /* min-height: 1150px; */
+    }
+    .som-embed-player{
+        width: 350px;
+        height: 200px;
+        /* padding-bottom: 56.25%;  */
+        /* position: relative; */
+    }
+    .max-width1{
+        padding: 10px;
+    }
+
+    .feel-container{
+        padding: 40px;
+    }
+
+}

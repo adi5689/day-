@@ -1,0 +1,102 @@
+.app-rating{
+    padding: 200px 0px 50px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.rating-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rating-platform {
+    font-size: 40px;
+    line-height: 55px;
+    /* padding-left: 16px; */
+    font-weight: 700;
+}
+
+.rating-block {
+    margin-bottom: 70px;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png);
+    background-position: right top;
+    background-size: cover;
+}
+
+
+.home-btn3{
+    background-color: white;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.home-btn3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.banner {
+    padding: 40px 0 80px 0
+}
+.banner-text {
+    font-size: 58px;
+    text-align: center;
+}
+
+@media all and (max-width: 1279px) {
+    .app-rating {
+        padding: 100px 0px;
+    }
+    .rating-value {
+        font-size: 100px;
+    }
+    .rating-stars {
+        width: 120px;
+        height: 18px;
+    }
+    .rating-platform {
+        font-size: 45px;
+        line-height: 45px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .app-rating {
+        padding: 70px 0px;
+        flex-direction: column;
+    }
+    .rating-stars {
+        padding-top: 0px;
+    }
+    .rating-value {
+        font-size: 90px;
+    }
+    .rating-platform {
+        font-size: 31px;
+        line-height: 32px;
+        align-self: center;
+    }
+    .rating-block{
+        padding: 0px 40px;
+    }
+    /* .rating-mobile-button {
+        margin-left: 40px;
+    } */
+    .banner{
+        padding: 40px 0;
+    }
+    .banner-text {
+        font-size: 28px;
+        padding: 0 40px;
+        text-align: center;
+    }
+}

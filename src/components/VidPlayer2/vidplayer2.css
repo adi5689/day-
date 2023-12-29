@@ -1,0 +1,32 @@
+.vidplayer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    height: 100vh;
+    /* width: 100vw; */
+    background-color: rgb(184, 0, 0);
+}
+
+.home-btn5{
+  background-color: white;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.home-btn5 a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.vid-container2{
+  width: 75vw;
+  height: 60vh;
+}
