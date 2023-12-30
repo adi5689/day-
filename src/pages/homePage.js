@@ -26,7 +26,7 @@ const homePage = () => {
       <MobileScroll />
       <WindowPeak /> 
       <CredStory />
-      // <VidPlayer2 />
+      {/* <VidPlayer2 /> */}
       <WindowPeak3 /> 
       <AppRating />
       <Footer />
