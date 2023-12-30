@@ -11,7 +11,7 @@ import Footer from '../components/common/Footer';
 import MuzicPlayer from '../components/Player';
 import WindowPeak2 from '../components/WindowPeak2';
 import WindowPeak3 from '../components/WindowPeak3';
-import VidPlayer2 from '../components/VidPlayer2';
+// import VidPlayer2 from '../components/VidPlayer2';
 // import VidPlayer from '../components/VidPlayer';
 
 
@@ -26,7 +26,7 @@ const homePage = () => {
       <MobileScroll />
       <WindowPeak /> 
       <CredStory />
-      <VidPlayer2 />
+      // <VidPlayer2 />
       <WindowPeak3 /> 
       <AppRating />
       <Footer />
