@@ -21,8 +21,8 @@
 }
 
 .som-embed-player{
-    width: 900px;
-    height: 500px;
+    width: 55vw;
+    height: 80vh;
     /* padding-bottom: 56.25%;  */
     position: relative;
 }
@@ -48,8 +48,8 @@
         /* min-height: 1150px; */
     }
     .som-embed-player{
-        width: 350px;
-        height: 200px;
+        width: 75vw;
+        height: 60vh;
         /* padding-bottom: 56.25%;  */
         /* position: relative; */
     }
