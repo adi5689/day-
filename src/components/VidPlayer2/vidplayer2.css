@@ -27,6 +27,12 @@
 }
 
 .vid-container2{
-  width: 75vw;
-  height: 60vh;
+    width: 55vw;
+    height: 80vh;
+}
+@media screen and (max-width: 767px){
+  .vid-container2{
+    width: 75vw;
+    height: 60vh;
+  }
 }
